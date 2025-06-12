@@ -6,7 +6,7 @@ st.set_page_config(page_title="🎨 명화 탐색기", layout="wide")
 st.title("🎨 명화 탐색기 (MET Museum API)")
 
 # 데이터 불러오기
-csv_url = "https://raw.githubusercontent.com/사용자이름/저장소이름/main/art_data.csv"
+csv_url = "https://raw.githubusercontent.com/patientkim/art-explorer/main/art_data.csv"
 df = pd.read_csv(csv_url)
 
 # 검색어 입력창 만들기
